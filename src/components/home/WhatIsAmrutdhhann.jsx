@@ -18,7 +18,7 @@ const fadeUp = {
   },
 };
 
-export default function WhatIsAmruthdhan() {
+export default function WhatIsAmrutdhhann() {
   return (
     <section className="bg-gradient-to-b from-white to-slate-50">
       <div className="max-w-7xl mx-auto px-6 py-28">

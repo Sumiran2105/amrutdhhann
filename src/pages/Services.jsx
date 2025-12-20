@@ -3,6 +3,7 @@ import CoreServices from "../components/service/CoreServices";
 import WhoCanBenefit from "../components/service/WhoCanBenefit";
 import ReliableIncome from "../components/service/ReliableIncome";
 import DairyEcosystem from "../components/service/DairyEcosystem";
+import TransparencyTrust from "../components/service/TransparencyTrust";
 
 
 
@@ -14,6 +15,7 @@ const Services = () => {
       <CoreServices />
       <WhoCanBenefit />
       <DairyEcosystem />
+      <TransparencyTrust />
     </div>
   )
 }

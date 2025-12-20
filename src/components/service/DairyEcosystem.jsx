@@ -12,7 +12,7 @@ export default function DairyEcosystem() {
           </h2>
 
           <p className="mt-6 text-gray-700 leading-relaxed">
-            Amruthdhan is envisioned to become Asia’s largest integrated dairy
+            Amrutdhhann is envisioned to become Asia’s largest integrated dairy
             enterprise, built with a long-term vision of quality, scale, and
             sustainability. We focus on producing organic and healthy milk and
             milk by-products that meet high international standards and are
@@ -44,7 +44,7 @@ export default function DairyEcosystem() {
         </h4>
 
         <p className="text-gray-700 leading-relaxed">
-          Animal welfare is a core value at Amruthdhan. We follow
+          Animal welfare is a core value at Amrutdhhann. We follow
           cruelty-free practices and treat animals with kindness, care,
           and affection, believing that healthy and happy animals produce
           healthy milk.
@@ -99,7 +99,7 @@ export default function DairyEcosystem() {
         </h4>
 
         <p className="text-gray-700 leading-relaxed">
-          Amruthdhan aims to become one of the largest exporters of milk
+          Amrutdhhann aims to become one of the largest exporters of milk
           and milk by-products, meeting international quality standards
           and building a trusted global dairy brand.
         </p>

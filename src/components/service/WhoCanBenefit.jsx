@@ -12,7 +12,7 @@ export default function WhoCanBenefit() {
           </h2>
 
           <p className="mt-6 text-gray-700 leading-relaxed">
-            Amruthdhan’s ecosystem is designed to create value for everyone
+            Amrutdhhann’s ecosystem is designed to create value for everyone
             involved — from those investing in growth, to partners expanding
             the network, to families consuming pure and healthy dairy products.
           </p>

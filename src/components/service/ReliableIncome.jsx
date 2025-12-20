@@ -14,7 +14,7 @@ export default function ReliableIncome() {
           </h2>
 
           <p className="mt-6 text-gray-700 leading-relaxed">
-            Along with dairy excellence, Amruthdhan is designed to provide
+            Along with dairy excellence, Amrutdhhann is designed to provide
             consistent and reliable income to those who invest with us.
             Investors and agents benefit from uninterrupted and stable earnings,
             supported by a strong, asset-based dairy business.
@@ -41,7 +41,7 @@ export default function ReliableIncome() {
         Asset-Backed Income Model
       </h4>
       <p className="text-gray-700 leading-relaxed text-sm">
-        Amruthdhan’s income structure is supported by a real,
+        Amrutdhhann’s income structure is supported by a real,
         revenue-generating dairy ecosystem. This asset-backed foundation
         ensures predictable monthly earnings and long-term financial
         stability.
