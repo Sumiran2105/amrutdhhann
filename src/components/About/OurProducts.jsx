@@ -5,25 +5,25 @@ const OurProducts = () => {
     {
       name: "Pure Buffalo Milk",
       desc: "Fresh, 100% pure buffalo milk with no chemicals, dilution, or preservatives.",
-      image: "https://images.unsplash.com/photo-1585238342028-4bbc4cda2b2a",
+      image: "/images/milk2.jpeg",
       nutrition: ["High Protein", "Rich Calcium", "Natural Fat"],
     },
     {
       name: "Fresh Curd",
       desc: "Naturally thick and creamy curd prepared from pure buffalo milk.",
-      image: "https://images.unsplash.com/photo-1625944526405-98f2c92d25b3",
+      image: "/images/curd.jpeg",
       nutrition: ["Probiotics", "Gut Friendly", "Calcium Rich"],
     },
     {
       name: "Desi Ghee",
       desc: "Traditional desi ghee prepared using age-old methods for rich aroma and nutrition.",
-      image: "https://images.unsplash.com/photo-1604908177522-4029c7b17d0d",
+      image: "/images/ghee.jpg",
       nutrition: ["Healthy Fats", "Boosts Immunity", "Rich Aroma"],
     },
   ];
 
   return (
-    <section className="max-w-7xl mx-auto px-6 py-24 bg-gradient-to-b from-white to-slate-50">
+    <section className="max-w-7xl mx-auto  bg-gradient-to-b from-white to-slate-50">
 
       {/* Heading */}
       <motion.h2
@@ -31,7 +31,7 @@ const OurProducts = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
-        className="text-3xl md:text-5xl font-extrabold text-center text-blue-900 mb-10"
+        className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-6"
       >
         Our Milk Products
       </motion.h2>
@@ -83,7 +83,7 @@ const OurProducts = () => {
               </div>
 
               {/* CTA */}
-              <button className="w-full py-3 rounded-full bg-gradient-to-r from-blue-600 to-emerald-600 text-white font-semibold hover:opacity-90 transition">
+              <button className="w-full py-3 rounded-full bg-blue-700 from-blue-600 to-emerald-600 text-white font-semibold hover:opacity-90 transition">
                 Enquire Now
               </button>
             </div>

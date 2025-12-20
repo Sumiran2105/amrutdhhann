@@ -3,7 +3,7 @@ import { FaLeaf, FaHeart, FaSun } from "react-icons/fa";
 
 const AnimalWelfare = () => {
   return (
-    <section className="bg-gradient-to-br from-emerald-50 to-blue-50 py-24 px-6">
+    <section className=" from-emerald-50 to-blue-50  px-6">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -12,7 +12,7 @@ const AnimalWelfare = () => {
         className="max-w-6xl mx-auto bg-white rounded-3xl shadow-xl p-10 md:p-14"
       >
         {/* Heading */}
-        <h2 className="text-3xl md:text-5xl font-extrabold text-center text-blue-900 mb-10">
+        <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-6">
           Animal Welfare & Sustainability
         </h2>
 
