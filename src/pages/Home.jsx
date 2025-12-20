@@ -11,7 +11,7 @@ import FinalCTA from '../components/home/FinalCTA'
 
 const Home = () => {
   return (
-    <div>
+     <div className="min-h-screen bg-white">
       <Hero />
       <WhatIsAmrutdhhann />
       <Products />

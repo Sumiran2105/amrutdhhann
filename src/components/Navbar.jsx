@@ -34,8 +34,8 @@ const Navbar = () => {
   }, [location.pathname]);
 
   return (
-    <header
-  className={`fixed top-0 left-0 w-full z-50 bg-white border-b transition-all duration-300 ${
+  <header
+  className={`sticky top-0 z-50 bg-white border-b transition-all duration-300 ${
     isScrolled ? "shadow-md border-gray-300" : "border-gray-100"
   }`}
 >

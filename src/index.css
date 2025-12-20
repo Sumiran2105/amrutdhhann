@@ -2,13 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Optional: global resets that DO NOT break Tailwind */
+/* ✅ Allow body to control scrolling */
 html,
-body,
+body {
+  height: auto;
+  min-height: 100%;
+}
+
 #root {
-  height: 100%;
+  min-height: 100%;
 }
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
