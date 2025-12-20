@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { motion } from 'framer-motion';
 const Banner = () => {
   return (
     <section className="relative bg-gradient-to-br from-blue-800 via-blue-700 to-blue-900 px-6 py-24 text-white overflow-hidden">
