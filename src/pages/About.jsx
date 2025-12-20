@@ -1,4 +1,4 @@
-import Banner from "@/components/about/Banner.jsx";
+//import Banner from "@/components/about/Banner.jsx";
 import Vision from "@/components/about/Vision.jsx";
 import Mission from "@/components/about/Mission.jsx";
 import WhyAmrutdhhann from "@/components/about/WhyAmrutdhhann.jsx";
@@ -13,7 +13,6 @@ import Closing from "@/components/about/Closing.jsx";
 const About = () => {
   return (
     <>
-      <Banner />
       <Vision />
       <Mission />
       <Investment />
