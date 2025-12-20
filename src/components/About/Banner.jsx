@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import React from 'react'
 
 const Banner = () => {
   return (
@@ -54,7 +54,7 @@ const Banner = () => {
       </motion.div>
 
     </section>
-  );
-};
+  )
+}
 
-export default Banner;
+export default Banner
