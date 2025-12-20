@@ -1,7 +1,21 @@
-export default function Home() {
+import React from 'react'
+import Hero from '../components/home/Hero'
+import WhyAmruthdhan from '../components/home/WhyAmruthdhan'
+import EarningModel from '../components/home/EarningModel'
+import HowInvestmentWorks from '../components/home/HowInvestmentWorks'
+import DairyOperations from '../components/home/DairyOperations'
+
+
+const Home = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <h1 className="text-3xl font-bold">Home</h1>
+    <div>
+      <Hero />
+      <WhyAmruthdhan />
+      <EarningModel />
+      <HowInvestmentWorks />
+      <DairyOperations />
     </div>
   )
 }
+
+export default Home
