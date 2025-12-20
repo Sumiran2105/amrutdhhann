@@ -9,24 +9,19 @@ import Services from "./pages/Services";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 
-/* Wrapper to access useLocation */
 function AppContent() {
   const { pathname } = useLocation();
 
-  // ✅ Scroll to top on route change
+  // Scroll to top on route change
   useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: "smooth",
-    });
+    window.scrollTo(0, 0);
   }, [pathname]);
 
   return (
     <>
       <Navbar />
 
-      {/* Offset for fixed navbar */}
+      {/* THIS LINE FIXES YOUR ISSUE */}
       <main className="pt-20">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -41,6 +36,4 @@ function AppContent() {
   );
 }
 
-export default function App() {
-  return <AppContent />;
-}
+export default AppContent;

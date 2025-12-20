@@ -19,46 +19,56 @@ const Footer = () => {
 
           {/* BRAND */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 rounded-full bg-white text-blue-800 font-bold flex items-center justify-center">
-                A
-              </div>
-              <div>
-                <h2 className="text-xl font-bold tracking-wide">
-                  Amrutdhhann
-                </h2>
-                <p className="text-xs italic text-blue-200">
-                  Trust • Growth • Security
-                </p>
-              </div>
-            </div>
+  <div className="flex items-center gap-3 mb-4">
 
-            <p className="text-gray-300 text-sm leading-relaxed">
-              AmruthDhan ensures that what reaches your home is pure, safe, and exactly as nature
-intended.
+    {/* LOGO CIRCLE */}
+    <div className="w-12 h-12 rounded-full bg-white flex items-center justify-center shadow-sm">
+      <img
+        src="/images/logo.jpeg"
+        alt="Amrutdhhann Logo"
+        className="w-7 h-7 object-contain"
+      />
+    </div>
 
-              <br />
-              Milk is not just another product — it is part of every family’s daily life
-            </p>
-          </div>
+    {/* TEXT */}
+    <div>
+      <h2 className="text-xl font-bold tracking-wide">
+        Amrutdhhann
+      </h2>
+      <p className="text-xs text-gray-400 italic mt-1">
+        "Dharmo Rakshati Rakshitah"
+      </p>
+    </div>
 
+  </div>
+
+  <p className="text-gray-300 text-sm leading-relaxed">
+    AmruthDhan ensures that what reaches your home is pure, safe, and exactly as nature
+    intended.
+    <br />
+    Milk is not just another product — it is part of every family’s daily life.
+  </p>
+</div>
+
+         
           {/* QUICK LINKS */}
-          <div>
-            <h3 className="text-lg font-semibold text-orange-400 mb-4">
-              Quick Links
-            </h3>
-            <nav className="space-y-2">
-              {quickLinks.map((item) => (
-                <Link
-                  key={item.path}
-                  to={item.path}
-                  className="block text-gray-300 text-sm hover:text-orange-400 transition"
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </nav>
-          </div>
+<div className="md:pl-20">
+  <h3 className="text-lg font-semibold text-orange-400 mb-4">
+    Quick Links
+  </h3>
+  <nav className="space-y-2">
+    {quickLinks.map((item) => (
+      <Link
+        key={item.path}
+        to={item.path}
+        className="block text-gray-300 text-sm hover:text-orange-400 transition"
+      >
+        {item.label}
+      </Link>
+    ))}
+  </nav>
+</div>
+
 
           {/* CONTACT */}
           <div>
@@ -76,7 +86,7 @@ intended.
               📞 +91 90000 00000
             </p>
             <p className="text-gray-300 text-sm">
-              📧 info@Amrutdhhann.com
+              📧 info@anandgroup.org
             </p>
           </div>
         </div>
