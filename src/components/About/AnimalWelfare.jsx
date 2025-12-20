@@ -3,7 +3,7 @@ import { FaLeaf, FaHeart, FaSun } from "react-icons/fa";
 
 const AnimalWelfare = () => {
   return (
-    <section className=" from-emerald-50 to-blue-50  px-6">
+    <section className=" from-emerald-50 to-blue-50  px-6 py-20">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
