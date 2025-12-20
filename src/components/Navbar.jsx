@@ -64,7 +64,7 @@ const Navbar = () => {
 
             <div className="leading-tight">
               <h1 className="text-xl font-bold text-gray-900">
-                AMRUTHDHAN
+                Amrutdhhann
               </h1>
               <p className="text-xs text-gray-500 italic">
                 Trust • Growth • Security

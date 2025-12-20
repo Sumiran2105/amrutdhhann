@@ -143,7 +143,7 @@ export default function Hero() {
         {/* LEFT SIDE */}
         <div>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-            Amruthdhan —
+            Amrutdhhann —
             <span className="block text-blue-700 mt-2">
               Asia’s Largest Sustainable
               <br className="hidden sm:block" />
@@ -164,7 +164,7 @@ export default function Hero() {
 
           <div className="mt-6 space-y-4">
             <p className="text-lg text-gray-700">
-              Amruthdhan is envisioned to become Asia’s largest integrated dairy
+              Amrutdhhann is envisioned to become Asia’s largest integrated dairy
               enterprise, built on quality, scale, and long-term sustainability.
             </p>
             <p className="text-gray-700">

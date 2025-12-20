@@ -25,7 +25,7 @@ const Footer = () => {
               </div>
               <div>
                 <h2 className="text-xl font-bold tracking-wide">
-                  AMRUTHDHAN
+                  Amrutdhhann
                 </h2>
                 <p className="text-xs italic text-blue-200">
                   Trust • Growth • Security
@@ -73,14 +73,14 @@ const Footer = () => {
               📞 +91 90000 00000
             </p>
             <p className="text-gray-300 text-sm">
-              📧 info@amruthdhan.com
+              📧 info@Amrutdhhann.com
             </p>
           </div>
         </div>
 
         {/* BOTTOM */}
         <div className="border-t border-white/10 py-4 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400 gap-2">
-          <p>© {currentYear} Amruthdhan. All rights reserved.</p>
+          <p>© {currentYear} Amrutdhhann. All rights reserved.</p>
 
           <p>
             Designed by{" "}

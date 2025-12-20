@@ -13,19 +13,19 @@ export default function DairyOperations() {
 
         {/* HEADER */}
         <div className="max-w-4xl mx-auto text-center mb-20">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+          <h2 className="text-3xl md:text-4xl font-bold text-blue-900">
             Our Dairy Farms & Operations
           </h2>
 
           <p className="mt-6 text-gray-700 leading-relaxed">
-            Amruthdhan is envisioned to become Asia’s largest integrated dairy
+            Amrutdhhann is envisioned to become Asia’s largest integrated dairy
             enterprise, built with modern infrastructure and ethical farming
             practices. Our focus is on producing organic and healthy milk and
             milk by-products that meet international quality standards.
           </p>
 
           <p className="mt-4 text-gray-700 leading-relaxed">
-            Our products are not limited to India. Amruthdhan aims to export
+            Our products are not limited to India. Amrutdhhann aims to export
             milk and dairy products across global markets, establishing itself
             as a trusted international dairy brand.
           </p>
@@ -41,7 +41,7 @@ export default function DairyOperations() {
             color="green"
           >
             <p>
-              Animal welfare is a core value at Amruthdhan. We strongly believe
+              Animal welfare is a core value at Amrutdhhann. We strongly believe
               that healthy and happy animals produce healthy milk.
             </p>
             <p className="mt-3">
@@ -63,7 +63,7 @@ export default function DairyOperations() {
             </p>
             <p className="mt-3">
               To ensure long-term productivity and superior cattle genetics,
-              Amruthdhan plans to establish a high-quality sperm bank and
+              Amrutdhhann plans to establish a high-quality sperm bank and
               expand into global export markets.
             </p>
           </OperationCard>
@@ -71,8 +71,8 @@ export default function DairyOperations() {
 
         {/* DIFFERENT SECTION */}
         <div className="text-center mb-14">
-          <h3 className="text-2xl md:text-3xl font-bold text-gray-900">
-            What Makes Amruthdhan Different
+          <h3 className="text-2xl md:text-3xl font-bold text-blue-900">
+            What Makes Amrutdhhann Different
           </h3>
         </div>
 

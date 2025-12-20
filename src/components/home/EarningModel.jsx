@@ -12,7 +12,7 @@ export default function EarningModel() {
           </h2>
 
           <p className="mt-6 text-gray-700 leading-relaxed">
-            Along with dairy excellence, Amruthdhan offers a strong earning
+            Along with dairy excellence, Amrutdhhann offers a strong earning
             platform designed to provide consistent and reliable income to
             investors and agents. Our ecosystem is built on transparency,
             sustainability, and long-term value creation.
@@ -57,7 +57,7 @@ export default function EarningModel() {
             </h3>
 
             <p className="mt-4 text-gray-700 leading-relaxed text-center">
-              Agents partnering with Amruthdhan benefit from immediate income
+              Agents partnering with Amrutdhhann benefit from immediate income
               opportunities and additional commissions for every investor they
               bring into the platform.
             </p>
@@ -74,7 +74,7 @@ export default function EarningModel() {
         {/* FOOTER STATEMENT */}
         <div className="max-w-4xl mx-auto text-center mt-16">
           <p className="text-gray-700 leading-relaxed">
-            Amruthdhan is not just about milk or investment — it is about
+            Amrutdhhann is not just about milk or investment — it is about
             creating a trusted ecosystem where families receive pure, healthy
             dairy products while investors and agents build sustainable income
             and long-term financial growth with confidence.

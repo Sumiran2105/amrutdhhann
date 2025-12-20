@@ -12,7 +12,7 @@ export default function HowInvestmentWorks() {
           </h2>
 
           <p className="mt-6 text-gray-700 leading-relaxed">
-            Amruthdhan offers a structured and transparent earning model backed
+            Amrutdhhann offers a structured and transparent earning model backed
             by a strong and growing dairy ecosystem. The process is designed to
             provide consistent income, long-term stability, and financial
             confidence to investors and agents.
@@ -27,7 +27,7 @@ export default function HowInvestmentWorks() {
             step="01"
             icon={<MdCurrencyRupee size={26} />}
             title="Make an Investment"
-            desc="An investor invests ₹5,00,000 into the Amruthdhan platform, becoming part of a real, asset-backed dairy ecosystem."
+            desc="An investor invests ₹5,00,000 into the Amrutdhhann platform, becoming part of a real, asset-backed dairy ecosystem."
           />
 
           {/* STEP 2 */}

@@ -1,19 +1,25 @@
 import React from 'react'
 import Hero from '../components/home/Hero'
-import WhyAmruthdhan from '../components/home/WhyAmruthdhan'
+import WhyAmrutdhhann from '../components/home/WhyAmrutdhhann'
 import EarningModel from '../components/home/EarningModel'
 import HowInvestmentWorks from '../components/home/HowInvestmentWorks'
 import DairyOperations from '../components/home/DairyOperations'
+import Products from '../components/home/Products'
+import WhatIsAmrutdhhann from '../components/home/WhatIsAmrutdhhann'
+import FinalCTA from '../components/home/FinalCTA'
 
 
 const Home = () => {
   return (
     <div>
       <Hero />
-      <WhyAmruthdhan />
+      <WhatIsAmrutdhhann />
+      <Products />
       <EarningModel />
       <HowInvestmentWorks />
       <DairyOperations />
+      <WhyAmrutdhhann />
+      <FinalCTA />
     </div>
   )
 }
