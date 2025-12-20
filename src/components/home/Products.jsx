@@ -1,7 +1,7 @@
 export default function Products() {
   return (
     <section className="bg-white">
-      <div className="max-w-7xl mx-auto px-6 py-24">
+      <div className="max-w-7xl mx-auto px-6 py-20">
 
         {/* SECTION HEADER */}
         <div className="max-w-4xl mx-auto text-center mb-20">
@@ -16,7 +16,7 @@ export default function Products() {
 
           <p className="mt-4 text-gray-700 leading-relaxed">
             Every product is crafted to meet high quality standards and
-            delivered in its most natural form — free from chemicals,
+            delivered in its most natural form, free from chemicals,
             preservatives, or adulteration.
           </p>
         </div>

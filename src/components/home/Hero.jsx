@@ -104,7 +104,7 @@ export default function Hero() {
 
           <div className="mt-6 bg-orange-50 border border-orange-100 rounded-xl p-4">
             <p className="text-sm text-gray-700">
-              A transparent, asset-backed investment model designed for
+              A transparent, asset backed investment model designed for
               long-term income visibility and capital protection.
             </p>
           </div>
@@ -142,8 +142,8 @@ export default function Hero() {
 
         {/* LEFT SIDE */}
         <div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-            Amrutdhhann —
+          <h1 className="text-4xl md:text-5xl font-bold text-orange-500 leading-tight">
+            Amrutdhhann
             <span className="block text-blue-700 mt-2">
               Asia’s Largest Sustainable
               <br className="hidden sm:block" />

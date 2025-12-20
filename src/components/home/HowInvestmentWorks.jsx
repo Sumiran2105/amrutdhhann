@@ -2,7 +2,7 @@ import { MdCurrencyRupee, MdTrendingUp, MdAutorenew, MdVerified } from "react-ic
 
 export default function HowInvestmentWorks() {
   return (
-    <section className="bg-gradient-to-b from-blue-50 to-white">
+    <section className="bg-white">
       <div className="max-w-7xl mx-auto px-6 py-24">
 
         {/* HEADER */}
@@ -60,7 +60,7 @@ export default function HowInvestmentWorks() {
           <p className="text-gray-700 leading-relaxed">
             This model is designed to benefit both investors and agents through
             stable earnings, transparency, and long-term value creation, all
-            supported by a real, income-generating dairy business.
+            supported by a real, income generating dairy business.
           </p>
         </div>
       </div>

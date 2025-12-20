@@ -2,7 +2,7 @@ import { FaLeaf, FaSolarPanel, FaShieldAlt, FaChartLine } from "react-icons/fa";
 
 export default function WhyAmrutdhhann() {
   return (
-    <section className="bg-gradient-to-b from-white to-blue-50">
+    <section className="bg-white">
       <div className="max-w-7xl mx-auto px-6 py-24">
 
         {/* CENTERED HEADING & CONTENT */}
@@ -23,7 +23,7 @@ export default function WhyAmrutdhhann() {
             Our model is built on transparency, sustainability, and long-term
             value, ensuring both nutritional benefits for consumers and steady
             income for partners. With Amrutdhhann, you are not just investing in
-            a dairy business — you are supporting ethical animal care,
+            a dairy business, you are supporting ethical animal care,
             eco-friendly farming, global-quality products, and a secure
             income-generating platform designed for the future.
           </p>

@@ -20,8 +20,8 @@ const fadeUp = {
 
 export default function WhatIsAmrutdhhann() {
   return (
-    <section className="bg-gradient-to-b from-white to-slate-50">
-      <div className="max-w-7xl mx-auto px-6 py-28">
+    <section className="bg-white">
+      <div className="max-w-7xl mx-auto px-6 py-10">
 
         {/* HEADER */}
         <motion.div
@@ -37,7 +37,7 @@ export default function WhatIsAmrutdhhann() {
 
           <p className="mt-8 text-lg text-gray-700 leading-relaxed">
             Amrutdhhann is envisioned to become Asia’s largest dairy ecosystem,
-            built on scale, quality, and long-term sustainability — combining
+            built on scale, quality, and long-term sustainability, combining
             ethical dairy farming with a dependable earning platform.
           </p>
         </motion.div>

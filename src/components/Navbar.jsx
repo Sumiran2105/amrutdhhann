@@ -48,9 +48,9 @@ const Navbar = () => {
 
   return (
     <header
-      className={`sticky top-0 z-40 bg-white transition-all duration-300 border-b ${
-        isScrolled ? "shadow-md border-gray-300" : "border-gray-100"
-      }`}
+  className={`fixed top-0 left-0 w-full z-50 bg-white transition-all duration-300 border-b ${
+    isScrolled ? "shadow-md border-gray-300" : "border-gray-100"
+  }`}
     >
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-20">

@@ -3,11 +3,11 @@ import { FaShieldAlt, FaClipboardCheck, FaLeaf, FaIndustry } from "react-icons/f
 export default function TransparencyTrust() {
   return (
     <section className="bg-white">
-      <div className="max-w-7xl mx-auto px-6 py-28">
+      <div className="max-w-7xl mx-auto px-6 py-20">
 
         {/* SECTION HEADER */}
         <div className="max-w-4xl mx-auto text-center mb-20">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+          <h2 className="text-3xl md:text-4xl font-bold text-blue-900">
             Transparency & Trust
           </h2>
 

@@ -8,8 +8,8 @@ import {
 
 export default function DairyOperations() {
   return (
-    <section className="bg-gradient-to-b from-white to-blue-50">
-      <div className="max-w-7xl mx-auto px-6 py-24">
+    <section className="bg-white">
+      <div className="max-w-7xl mx-auto px-6 py-19">
 
         {/* HEADER */}
         <div className="max-w-4xl mx-auto text-center mb-20">

@@ -3,7 +3,7 @@ import { MdCurrencyRupee, MdTrendingUp, MdHandshake } from "react-icons/md";
 export default function EarningModel() {
   return (
     <section className="bg-white">
-      <div className="max-w-7xl mx-auto px-6 py-24">
+      <div className="max-w-7xl mx-auto px-6 py-19">
 
         {/* HEADER */}
         <div className="max-w-4xl mx-auto text-center mb-16">
@@ -74,7 +74,7 @@ export default function EarningModel() {
         {/* FOOTER STATEMENT */}
         <div className="max-w-4xl mx-auto text-center mt-16">
           <p className="text-gray-700 leading-relaxed">
-            Amrutdhhann is not just about milk or investment — it is about
+            Amrutdhhann is not just about milk or investments; it is about
             creating a trusted ecosystem where families receive pure, healthy
             dairy products while investors and agents build sustainable income
             and long-term financial growth with confidence.

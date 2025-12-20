@@ -34,8 +34,11 @@ const Footer = () => {
             </div>
 
             <p className="text-gray-300 text-sm leading-relaxed">
-              Empowering financial stability through transparent,
-              reliable, and growth-focused financial solutions.
+              AmruthDhan ensures that what reaches your home is pure, safe, and exactly as nature
+intended.
+
+              <br />
+              Milk is not just another product — it is part of every family’s daily life
             </p>
           </div>
 

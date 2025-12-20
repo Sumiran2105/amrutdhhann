@@ -3,7 +3,7 @@ import { FaLeaf, FaSolarPanel, FaGlobe, FaHeart } from "react-icons/fa";
 export default function DairyEcosystem() {
   return (
     <section className="bg-gradient-to-b from-white to-slate-50">
-      <div className="max-w-7xl mx-auto px-6 py-28">
+      <div className="max-w-7xl mx-auto px-6 py-15">
 
         {/* SECTION HEADER */}
         <div className="max-w-4xl mx-auto text-center mb-20">

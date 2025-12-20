@@ -10,7 +10,7 @@ import {
 export default function CoreServices() {
   return (
     <section className="bg-white">
-      <div className="max-w-7xl mx-auto px-6 py-20">
+      <div className="max-w-7xl mx-auto px-6 py-15">
 
         {/* SECTION HEADER */}
         <div className="max-w-4xl mx-auto text-center mb-20">
