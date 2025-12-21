@@ -1,9 +1,9 @@
-import ServicesHero from "../components/service/ServicesHero";
-import CoreServices from "../components/service/CoreServices";
-import WhoCanBenefit from "../components/service/WhoCanBenefit";
-import ReliableIncome from "../components/service/ReliableIncome";
-import DairyEcosystem from "../components/service/DairyEcosystem";
-import TransparencyTrust from "../components/service/TransparencyTrust";
+import ServicesHero from "../components/servicesections/ServicesHero";
+import CoreServices from "../components/servicesections/CoreServices";
+import WhoCanBenefit from "../components/servicesections/WhoCanBenefit";
+import ReliableIncome from "../components/servicesections/ReliableIncome";
+import DairyEcosystem from "../components/servicesections/DairyEcosystem";
+import TransparencyTrust from "../components/servicesections/TransparencyTrust";
 
 
 
