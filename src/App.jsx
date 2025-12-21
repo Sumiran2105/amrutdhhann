@@ -19,20 +19,20 @@ function AppContent() {
 
   return (
     <>
-      <Navbar />
+  <Navbar />
 
-      {/* THIS LINE FIXES YOUR ISSUE */}
-      
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      
+  <main>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
+  </main>
 
-      <Footer />
-    </>
+  <Footer />
+</>
+
   );
 }
 

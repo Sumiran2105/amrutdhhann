@@ -34,11 +34,9 @@ const Navbar = () => {
   }, [location.pathname]);
 
   return (
-  <header
-  className={`sticky top-0 z-50 bg-white border-b transition-all duration-300 ${
-    isScrolled ? "shadow-md border-gray-300" : "border-gray-100"
-  }`}
->
+  
+<header className="sticky top-0 z-50 bg-white border-b shadow-sm">
+
       <div className="max-w-7xl mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between h-20">
 
