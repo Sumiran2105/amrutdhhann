@@ -37,7 +37,7 @@ const OurProducts = () => {
       </motion.h2>
 
       <p className="text-center text-gray-600 max-w-3xl mx-auto mb-16 text-lg">
-        Pure, natural, and traditionally prepared dairy products — crafted for
+        Pure, natural, and traditionally prepared dairy products crafted for
         everyday family nutrition.
       </p>
 
