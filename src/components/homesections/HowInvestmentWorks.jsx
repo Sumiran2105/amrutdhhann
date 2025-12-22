@@ -3,7 +3,7 @@ import { MdCurrencyRupee, MdTrendingUp, MdAutorenew, MdVerified } from "react-ic
 export default function HowInvestmentWorks() {
   return (
     <section className="bg-white">
-      <div className="max-w-7xl mx-auto px-6 ">
+      <div className="max-w-7xl mx-auto px-6  py-8">
 
         {/* HEADER */}
         <div className="max-w-4xl mx-auto text-center mb-16">
