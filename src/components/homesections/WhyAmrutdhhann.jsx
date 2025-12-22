@@ -48,7 +48,7 @@ export default function WhyAmrutdhhann() {
 
           <PillarCard
             icon={<FaShieldAlt />}
-            title="Asset-Backed Model"
+            title="Asset-Based Model"
             desc="Every investment is supported by real, revenue-generating dairy assets, creating transparency and trust."
             color="indigo"
           />

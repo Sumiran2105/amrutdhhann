@@ -18,7 +18,7 @@ const Home = () => {
       <EarningModel />
       <HowInvestmentWorks />
       <DairyOperations />
-      <WhyAmrutdhhann />
+      {/* <WhyAmrutdhhann /> */}
       <FinalCTA />
     </div>
   )

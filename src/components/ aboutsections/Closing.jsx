@@ -17,7 +17,7 @@ const Closing = () => {
         {/* Title */}
         <h2 className="text-2xl md:text-4xl font-extrabold leading-snug mb-5">
           <span className="text-white">Amrutdhhann</span>{" "}
-          <span className="text-yellow-400">—</span>
+     
           <br className="hidden md:block" />
           <span className="text-yellow-300">
             The Gold Standard of Pure Buffalo Milk
@@ -26,7 +26,7 @@ const Closing = () => {
 
         {/* Subtitle */}
         <p className="text-base md:text-lg text-blue-100 max-w-3xl mx-auto leading-relaxed mb-8">
-          From our farms to your home, we deliver purity, trust, and nutrition — 
+          From our farms to your home, we deliver purity, trust, and nutrition
           exactly as nature intended. Ethical farming, cruelty-free care, and 
           sustainable practices define every drop we produce.
         </p>

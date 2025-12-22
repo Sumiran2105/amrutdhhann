@@ -29,21 +29,21 @@ export default function WhatIsAmrutdhhann() {
           whileInView="show"
           viewport={{ once: true }}
           variants={fadeUp}
-          className="max-w-4xl mx-auto text-center mb-20"
+          className="max-w-4xl mx-auto text-center mb-14"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900">
             What is Amrutdhhann
           </h2>
 
-          <p className="mt-8 text-lg text-gray-700 leading-relaxed">
-            Amrutdhhann is envisioned to become Asia’s largest dairy ecosystem,
-            built on scale, quality, and long-term sustainability, combining
-            ethical dairy farming with a dependable earning platform.
+          <p className="mt-8 lg:text-lg text-gray-700 text-sm leading-relaxed text-justify">
+            Amrutdhhann is a unique platform that combines pure, organic dairy production with a dependable earning opportunity. By choosing Amrutdhhann, you become part of a system that delivers healthy milk to families while also creating financial growth for investors and agents.
+
+            Our model is built on transparency, sustainability, and long-term value, ensuring both nutritional benefits for consumers and steady income for partners. With Amrutdhhann, you are not just investing in a dairy business, you are supporting ethical animal care, eco-friendly farming, global-quality products, and a secure income-generating platform designed for the future
           </p>
         </motion.div>
 
         {/* 3 x 2 GRID */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 md:gap-10 gap-5">
 
           <InfoCard
             icon={<FaGlobe />}
@@ -123,7 +123,7 @@ function InfoCard({ icon, title, children, accent }) {
       whileInView="show"
       viewport={{ once: true }}
       className={`
-        rounded-2xl border p-8
+        rounded-2xl border md:p-8 p-6 
         ${accents[accent]}
         bg-opacity-80
         shadow-sm hover:shadow-xl transition
@@ -140,7 +140,7 @@ function InfoCard({ icon, title, children, accent }) {
       </h3>
 
       {/* CONTENT */}
-      <p className="text-gray-700 leading-relaxed text-sm">
+      <p className="text-gray-700 text-sm md:text-md ">
         {children}
       </p>
     </motion.div>

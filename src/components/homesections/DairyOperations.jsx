@@ -9,30 +9,30 @@ import {
 export default function DairyOperations() {
   return (
     <section className="bg-white">
-      <div className="max-w-7xl mx-auto px-6 py-19">
+      <div className="max-w-7xl mx-auto px-6 py-14">
 
         {/* HEADER */}
-        <div className="max-w-4xl mx-auto text-center mb-20">
+        <div className="max-w-4xl mx-auto text-center mb-10">
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900">
             Our Dairy Farms & Operations
           </h2>
 
-          <p className="mt-6 text-gray-700 leading-relaxed">
-            Amrutdhhann is envisioned to become Asia’s largest integrated dairy
-            enterprise, built with modern infrastructure and ethical farming
-            practices. Our focus is on producing organic and healthy milk and
-            milk by-products that meet international quality standards.
+          <p className="mt-6 text-sm md:text-lg text-gray-700">
+            Amruthdhan is envisioned to become Asia’s largest integrated dairy
+            enterprise, built on scale, quality, and long-term sustainability.
+            Our farms are developed with modern infrastructure and ethical
+            farming practices.
           </p>
 
-          <p className="mt-4 text-gray-700 leading-relaxed">
-            Our products are not limited to India. Amrutdhhann aims to export
-            milk and dairy products across global markets, establishing itself
-            as a trusted international dairy brand.
+          <p className="mt-4 text-sm md:text-lg text-gray-700">
+            We focus on producing organic and healthy milk and milk by-products
+            that meet international quality standards, serving both the Indian
+            market and global export destinations.
           </p>
         </div>
 
         {/* MAIN OPERATION CARDS */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-16">
 
           {/* Ethical Farming */}
           <OperationCard
@@ -40,14 +40,14 @@ export default function DairyOperations() {
             title="Ethical Farming & Animal Welfare"
             color="green"
           >
-            <p>
-              Animal welfare is a core value at Amrutdhhann. We strongly believe
-              that healthy and happy animals produce healthy milk.
+            <p className="text-sm md:text-base">
+              Animal welfare is a core value at Amruthdhan. We strongly believe
+              that healthy animals produce healthy milk.
             </p>
-            <p className="mt-3">
-              Our farms follow cruelty-free practices with proper nutrition,
-              hygiene, and stress-free living conditions, directly reflecting
-              in the purity and quality of our milk.
+            <p className="mt-3 text-sm md:text-base">
+              Our dairy farms follow cruelty-free practices, ensuring proper
+              nutrition, hygiene, and stress-free living conditions that directly
+              reflect in the purity and quality of our milk.
             </p>
           </OperationCard>
 
@@ -57,61 +57,62 @@ export default function DairyOperations() {
             title="Sustainable & Global-Ready Operations"
             color="blue"
           >
-            <p>
-              Our dairy ecosystem is designed to be environmentally
-              responsible, powered by solar energy and gobar gas systems.
+            <p className="text-sm md:text-base">
+              Our dairy ecosystem is designed to be environmentally responsible,
+              operating on renewable energy sources such as solar power and
+              gobar gas.
             </p>
-            <p className="mt-3">
-              To ensure long-term productivity and superior cattle genetics,
-              Amrutdhhann plans to establish a high-quality sperm bank and
-              expand into global export markets.
+            <p className="mt-3 text-sm md:text-base">
+              To support long-term productivity and strong cattle genetics,
+              Amruthdhan plans to maintain a high-quality breeding program while
+              expanding into international dairy export markets.
             </p>
           </OperationCard>
         </div>
 
         {/* DIFFERENT SECTION */}
-        <div className="text-center mb-14">
+        <div className="text-center mb-8">
           <h3 className="text-2xl md:text-3xl font-bold text-blue-900">
-            What Makes Amrutdhhann Different
+            What Makes Amruthdhan Different
           </h3>
         </div>
 
         {/* DIFFERENTIATOR CARDS */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
 
           <DiffCard
             icon={<FaCheckCircle />}
-            text="100% pure buffalo milk sourced from trusted dairy farms"
+            text="Pure, organic milk produced through ethical and transparent dairy practices"
             color="green"
           />
 
           <DiffCard
             icon={<FaLeaf />}
-            text="No chemicals, no preservatives, no adulteration, no shortcuts"
+            text="No harmful chemicals, preservatives, or adulteration at any stage"
             color="emerald"
           />
 
           <DiffCard
             icon={<FaCheckCircle />}
-            text="Stringent quality checks at every stage of production"
+            text="Strict quality control from farm operations to final dairy output"
             color="blue"
           />
 
           <DiffCard
             icon={<FaCheckCircle />}
-            text="Supply chain designed to ensure freshness from farm to home"
+            text="Sustainable farm ecosystem focused on long-term environmental responsibility"
             color="indigo"
           />
 
           <DiffCard
             icon={<FaCheckCircle />}
-            text="Delivered in its most natural form, rich in nutrition and taste"
+            text="Healthy animals, ethical care, and stress-free farming environments"
             color="orange"
           />
 
           <DiffCard
             icon={<FaGlobe />}
-            text="Global-quality dairy products supplied and exported worldwide"
+            text="International-quality dairy products supplied to domestic and global markets"
             color="purple"
           />
         </div>
@@ -137,7 +138,7 @@ function OperationCard({ icon, title, color, children }) {
         {title}
       </h3>
 
-      <div className="text-sm text-gray-700 leading-relaxed space-y-3">
+      <div className="space-y-2 text-gray-700">
         {children}
       </div>
     </div>
@@ -160,7 +161,7 @@ function DiffCard({ icon, text, color }) {
       <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${colors[color]}`}>
         <span className="text-lg">{icon}</span>
       </div>
-      <p className="text-sm text-gray-700 leading-relaxed">
+      <p className="text-sm md:text-lg text-gray-700">
         {text}
       </p>
     </div>

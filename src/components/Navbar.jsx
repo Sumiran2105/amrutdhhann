@@ -43,7 +43,7 @@ const Navbar = () => {
           {/* BRAND */}
           <Link
             to="/"
-            className="flex items-center space-x-3 group cursor-pointer"
+            className="flex items-center md:space-x-3 space-x-1 group cursor-pointer"
           >
             {/* Founder Image */}
             <div className="w-12 h-12 md:w-16 md:h-16 rounded-full border-2 border-orange-200 overflow-hidden shadow-sm group-hover:shadow-md transition-all duration-300">
@@ -55,11 +55,11 @@ const Navbar = () => {
             </div>
 
             {/* Logo + Text */}
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center md:space-x-2 space-x-1">
               <img
                 src="/images/logo.jpeg"
                 alt="Amrutdhhann Logo"
-                className="w-8 h-10 md:w-10 md:h-12 object-contain"
+                className="w-11 h-11 md:w-14 md:h-14 object-contain"
               />
 
               <div className="flex flex-col leading-tight">

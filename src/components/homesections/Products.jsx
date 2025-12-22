@@ -1,7 +1,7 @@
 export default function Products() {
   return (
     <section className="bg-white">
-      <div className="max-w-7xl mx-auto px-6 py-20">
+      <div className="max-w-7xl mx-auto px-6 py-10">
 
         {/* SECTION HEADER */}
         <div className="max-w-4xl mx-auto text-center mb-20">
@@ -9,12 +9,10 @@ export default function Products() {
             Our Products
           </h2>
 
-          <p className="mt-6 text-gray-700 leading-relaxed">
+          <p className="mt-6 text-gray-700 lg:text-lg text-base text-justify ">
             Amrutdhhann offers a wide range of pure milk and dairy by-products
             produced through ethical, cruelty-free farming practices.
-          </p>
-
-          <p className="mt-4 text-gray-700 leading-relaxed">
+          
             Every product is crafted to meet high quality standards and
             delivered in its most natural form, free from chemicals,
             preservatives, or adulteration.
@@ -104,9 +102,10 @@ function ProductCard({ image, title, desc }) {
           {title}
         </h3>
 
-        <p className="mt-3 text-sm text-gray-600 leading-relaxed">
-          {desc}
-        </p>
+        <p className=" text-sm md:text-base  text-gray-700">
+  {desc}
+</p>
+
       </div>
     </div>
   );

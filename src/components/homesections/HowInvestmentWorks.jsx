@@ -3,7 +3,7 @@ import { MdCurrencyRupee, MdTrendingUp, MdAutorenew, MdVerified } from "react-ic
 export default function HowInvestmentWorks() {
   return (
     <section className="bg-white">
-      <div className="max-w-7xl mx-auto px-6 py-24">
+      <div className="max-w-7xl mx-auto px-6 ">
 
         {/* HEADER */}
         <div className="max-w-4xl mx-auto text-center mb-16">
@@ -11,7 +11,7 @@ export default function HowInvestmentWorks() {
             How the Investment Works
           </h2>
 
-          <p className="mt-6 text-gray-700 leading-relaxed">
+          <p className="mt-6 text-sm md:text-base text-gray-700">
             Amrutdhhann offers a structured and transparent earning model backed
             by a strong and growing dairy ecosystem. The process is designed to
             provide consistent income, long-term stability, and financial
@@ -22,15 +22,13 @@ export default function HowInvestmentWorks() {
         {/* TIMELINE */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
 
-          {/* STEP 1 */}
           <StepCard
             step="01"
             icon={<MdCurrencyRupee size={26} />}
             title="Make an Investment"
-            desc="An investor invests ₹5,00,000 into the Amrutdhhann platform, becoming part of a real, asset-backed dairy ecosystem."
+            desc="An investor invests ₹5,00,000 into the Amrutdhhann platform, becoming part of a real, asset-based dairy ecosystem."
           />
 
-          {/* STEP 2 */}
           <StepCard
             step="02"
             icon={<MdTrendingUp size={26} />}
@@ -38,7 +36,6 @@ export default function HowInvestmentWorks() {
             desc="The investor receives ₹10,000 every month as consistent and uninterrupted income supported by dairy operations."
           />
 
-          {/* STEP 3 */}
           <StepCard
             step="03"
             icon={<MdAutorenew size={26} />}
@@ -46,7 +43,6 @@ export default function HowInvestmentWorks() {
             desc="Monthly income continues for a fixed period of 15 years, ensuring long-term predictability and financial stability."
           />
 
-          {/* STEP 4 */}
           <StepCard
             step="04"
             icon={<MdVerified size={26} />}
@@ -56,8 +52,8 @@ export default function HowInvestmentWorks() {
         </div>
 
         {/* FOOTER NOTE */}
-        <div className="max-w-4xl mx-auto text-center mt-16">
-          <p className="text-gray-700 leading-relaxed">
+        <div className="max-w-4xl mx-auto text-center mt-8">
+          <p className="text-sm md:text-lg text-gray-700">
             This model is designed to benefit both investors and agents through
             stable earnings, transparency, and long-term value creation, all
             supported by a real, income generating dairy business.
@@ -89,7 +85,7 @@ function StepCard({ step, icon, title, desc }) {
       </h3>
 
       {/* Description */}
-      <p className="mt-3 text-sm text-gray-600 leading-relaxed">
+      <p className="mt-3 text-sm md:text-base text-gray-600">
         {desc}
       </p>
     </div>

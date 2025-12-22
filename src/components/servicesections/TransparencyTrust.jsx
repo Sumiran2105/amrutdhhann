@@ -3,15 +3,15 @@ import { FaShieldAlt, FaClipboardCheck, FaLeaf, FaIndustry } from "react-icons/f
 export default function TransparencyTrust() {
   return (
     <section className="bg-white">
-      <div className="max-w-7xl mx-auto px-6 py-20">
+      <div className="max-w-7xl mx-auto px-6 py-10">
 
         {/* SECTION HEADER */}
-        <div className="max-w-4xl mx-auto text-center mb-20">
+        <div className="max-w-4xl mx-auto text-center mb-8">
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900">
             Transparency & Trust
           </h2>
 
-          <p className="mt-6 text-gray-700 leading-relaxed">
+          <p className="mt-4 text-gray-700 leading-relaxed">
             Amrutdhhann is built on transparency, ethical operations, and
             long-term responsibility. Every aspect of our dairy ecosystem
             and earning model is designed to be clear, accountable, and
@@ -20,7 +20,7 @@ export default function TransparencyTrust() {
         </div>
 
         {/* TRUST PILLARS */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
 
           <TrustCard
             icon={<FaIndustry />}
@@ -84,19 +84,21 @@ function TrustCard({ icon, title, desc, color }) {
       className={`
         rounded-2xl border p-8
         ${theme.card}
+       
         shadow-sm hover:shadow-lg transition
       `}
     >
       {/* ICON */}
       <div
         className={`
+             mx-auto
           w-14 h-14 mb-5 rounded-xl
           flex items-center justify-center
           ${theme.icon}
           shadow-md
         `}
       >
-        <span className="text-2xl">{icon}</span>
+        <span className="text-2xl ">{icon}</span>
       </div>
 
       {/* TITLE */}

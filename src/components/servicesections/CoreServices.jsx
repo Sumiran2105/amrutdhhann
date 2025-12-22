@@ -54,7 +54,7 @@ export default function CoreServices() {
           <ServiceCard
             icon={<FaChartLine />}
             title="Investment Opportunities"
-            desc="A predictable, asset-backed income model designed for long-term financial stability."
+            desc="A predictable, asset-based income model designed for long-term financial stability."
             color="orange"
           />
 

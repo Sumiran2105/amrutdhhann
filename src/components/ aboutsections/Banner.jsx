@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 const Banner = () => {
   return (
-    <section className="relative bg-gradient-to-br from-blue-800 via-blue-700 to-blue-900 px-6 py-24 text-white overflow-hidden">
+    <section className="relative bg-gradient-to-br from-blue-800 via-blue-700 to-blue-900 px-6 py-14 text-white overflow-hidden">
 
       {/* Main Content */}
       <motion.div
@@ -12,7 +12,7 @@ const Banner = () => {
         className="relative z-10"
       >
         {/* Glass Card */}
-        <div className="max-w-5xl mx-auto bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-10 md:p-14 text-center shadow-2xl">
+        <div className="max-w-5xl mx-auto bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-8 md:p-14 text-center shadow-2xl">
           
           {/* Sanskrit Heading */}
           <h1 className="text-3xl md:text-5xl font-extrabold text-yellow-400 mb-4">
@@ -39,7 +39,7 @@ const Banner = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="max-w-5xl mx-auto text-center mt-20"
+          className="max-w-5xl mx-auto text-center mt-10"
         >
           <h2 className="text-4xl md:text-5xl font-extrabold mb-6">
             Our <span className="text-yellow-400">Story</span>

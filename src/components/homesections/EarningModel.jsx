@@ -3,15 +3,15 @@ import { MdCurrencyRupee, MdTrendingUp, MdHandshake } from "react-icons/md";
 export default function EarningModel() {
   return (
     <section className="bg-white">
-      <div className="max-w-7xl mx-auto px-6 py-19">
+      <div className="max-w-7xl mx-auto px-6 py-6 md:py-8">
 
         {/* HEADER */}
-        <div className="max-w-4xl mx-auto text-center mb-16">
+        <div className="max-w-4xl mx-auto text-center mb-10">
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900">
-            Predictable Monthly Income 
+            Predictable Monthly Income
           </h2>
 
-          <p className="mt-6 text-gray-700 leading-relaxed">
+          <p className="mt-6 text-sm md:text-base text-gray-700">
             Along with dairy excellence, Amrutdhhann offers a strong earning
             platform designed to provide consistent and reliable income to
             investors and agents. Our ecosystem is built on transparency,
@@ -32,17 +32,26 @@ export default function EarningModel() {
               Investor Earnings
             </h3>
 
-            <p className="mt-4 text-gray-700 leading-relaxed text-center">
+            <p className="mt-4 text-sm md:text-base text-gray-700 text-center">
               Our goal is to provide uninterrupted and dependable income to
               everyone who invests with us, supported by a strong and growing
               dairy ecosystem.
             </p>
 
-            <ul className="mt-6 space-y-3 text-gray-700 text-sm">
-              <li>• Invest ₹5,00,000 and receive ₹10,000 every month</li>
-              <li>• Monthly income continues for 15 years</li>
-              <li>• Entire original investment of ₹5,00,000 is refunded after 15 years</li>
-              <li>• Designed for stability, predictability, and long-term security</li>
+            <ul className="mt-6 space-y-3 text-sm md:text-base text-gray-700">
+              <li className="font-medium">
+                • Invest <span className="text-blue-800">₹5,00,000</span> and
+                receive <span className="text-blue-800">₹10,000 every month</span>
+              </li>
+              <li className="font-medium">
+                • Monthly income continues for <span className="text-blue-800">15 years</span>
+              </li>
+              <li className="font-medium">
+                • Entire original investment of <span className="text-blue-800">₹5,00,000</span> is refunded after 15 years
+              </li>
+              <li className="font-medium">
+                • Designed for stability, predictability, and long-term security
+              </li>
             </ul>
           </div>
 
@@ -56,25 +65,33 @@ export default function EarningModel() {
               Agent Income Opportunities
             </h3>
 
-            <p className="mt-4 text-gray-700 leading-relaxed text-center">
+            <p className="mt-4 text-sm md:text-base text-gray-700 text-center">
               Agents partnering with Amrutdhhann benefit from immediate income
               opportunities and additional commissions for every investor they
               bring into the platform.
             </p>
 
-            <ul className="mt-6 space-y-3 text-gray-700 text-sm">
-              <li>• Immediate earnings through investor onboarding</li>
-              <li>• Additional commissions on every successful investment</li>
-              <li>• Transparent and stable earning structure</li>
-              <li>• Backed by a real, asset-driven dairy business</li>
+            <ul className="mt-6 space-y-3 text-sm md:text-base text-gray-700">
+              <li className="font-medium">
+                • Immediate earnings through investor onboarding
+              </li>
+              <li className="font-medium">
+                • Additional commissions on every successful investment
+              </li>
+              <li className="font-medium">
+                • Transparent and stable earning structure
+              </li>
+              <li className="font-medium">
+                • Backed by a real, asset-driven dairy business
+              </li>
             </ul>
           </div>
         </div>
 
         {/* FOOTER STATEMENT */}
-        <div className="max-w-4xl mx-auto text-center mt-16">
-          <p className="text-gray-700 leading-relaxed">
-            Amrutdhhann is not just about milk or investments; it is about
+        <div className="max-w-4xl mx-auto text-center mt-10">
+          <p className="text-sm md:text-base text-gray-700">
+            Amrutdhhann is not just about milk or investments it is about
             creating a trusted ecosystem where families receive pure, healthy
             dairy products while investors and agents build sustainable income
             and long-term financial growth with confidence.

@@ -2,105 +2,113 @@ import { motion } from "framer-motion";
 
 const AboutVision = () => {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-24">
+    <section className="bg-white py-20">
+      <div className="container mx-auto px-6">
+        <div className="max-w-6xl mx-auto">
+          {/* MAIN GRID */}
+          <div className="grid lg:grid-cols-2 gap-10 items-center">
 
-      {/* Heading */}
-      <motion.h2
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        viewport={{ once: true }}
-        className="text-3xl md:text-5xl font-extrabold text-center text-blue-900 mb-6"
-      >
-        About Amrutdhhann
-      </motion.h2>
+            {/* LEFT — BRAND IMAGE */}
+            <motion.div
+              initial={{ opacity: 0, x: -40 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              className="relative group"
+            >
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl">
+                <img
+                  src="/images/founder.jpg"
+                  alt="Amruthdhan Dairy Ecosystem"
+                  className="w-full h-[800px] object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
 
-      {/* Subheading */}
-      <p className="text-center text-gray-600 max-w-3xl mx-auto mb-16 text-lg">
-        A vision built on purity, trust, and sustainable dairy excellence.
-      </p>
 
-      <div className="grid lg:grid-cols-2 gap-16 items-center">
+                {/* FOUNDER BADGE */}
+                <div className="absolute bottom-6 right-6 bg-white p-4 rounded-2xl shadow-xl border">
+                  <div className="text-center">
+                    <div className="text-2xl font-bold text-gray-700">
+                      Anand
+                    </div>
+                    <div className="text-md font-bold text-blue-900">
+                      Founder, Amruthdhhann
+                    </div>
+                  </div>
+                </div>
 
-        {/* LEFT CONTENT */}
-        <motion.div
-          initial={{ opacity: 0, x: -40 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-          className="flex flex-col gap-8"
-        >
-          {/* 🔥 UPDATED CARD UI */}
-          <div className="bg-gradient-to-r from-blue-50 to-orange-50 
-                          p-8 rounded-2xl shadow-md 
-                          border-l-4 border-orange-500">
 
-            <h3 className="text-2xl font-bold text-blue-900 mb-4">
-              A Purpose-Driven Global Dairy Brand
-            </h3>
+              </div>
 
-            <p className="text-gray-800 leading-relaxed mb-4">
-              Amrutdhhann is envisioned as a next-generation dairy enterprise,
-              dedicated to producing <strong>100% pure buffalo milk</strong> and
-              premium dairy products that meet strict quality and safety standards.
-            </p>
+              {/* Decorative Glows */}
+              <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-emerald-400/20 rounded-full blur-2xl"></div>
+              <div className="absolute -top-4 -left-4 w-20 h-20 bg-blue-400/20 rounded-full blur-2xl"></div>
+            </motion.div>
 
-            <p className="text-gray-800 leading-relaxed mb-4">
-              Our farms follow <strong>cruelty-free animal welfare practices</strong>
-              and eco-friendly operations powered by renewable energy, ensuring
-              healthier animals and better milk quality.
-            </p>
+            {/* RIGHT — CONTENT */}
+            <motion.div
+              initial={{ opacity: 0, x: 40 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              className="space-y-6"
+            >
+              <h3 className="text-3xl md:text-4xl font-bold text-blue-900">
+                A Vision Beyond Milk
+              </h3>
 
-            <p className="text-gray-800 leading-relaxed mb-4">
-              Integrity, transparency, and trust guide every step—from farm
-              management to final delivery—backed by a long-term global vision.
-            </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Amruthdhan is envisioned to become Asia’s largest integrated dairy
+                enterprise, built on scale, quality, and long-term sustainability.
+                We focus on producing organic and healthy milk and milk by-products
+                that meet international quality standards.
+              </p>
 
-            <p className="mt-4 font-semibold text-gray-900">
-              — Founder, Amrutdhhann
-            </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Our products are not limited to India. Amruthdhan aims to become
+                one of the largest exporters of milk and dairy by-products,
+                establishing itself as a trusted global dairy brand.
+              </p>
+
+              <p className="text-lg text-gray-700 leading-relaxed">
+                We strongly believe that healthy animals produce healthy milk.
+                Our farms follow cruelty-free practices, treating animals with
+                kindness, care, and respect, ensuring purity at every level.
+              </p>
+
+              {/* STATS / HIGHLIGHTS */}
+              <div className="grid grid-cols-2 gap-4 py-6">
+                {[
+                  { number: "100%", label: "Pure Milk" },
+                  { number: "Global", label: "Exports" },
+                  { number: "15 Years", label: "Income Model" },
+                  { number: "Eco", label: "Sustainable Farms" },
+                ].map((stat, index) => (
+                  <div
+                    key={index}
+                    className="text-center p-4 bg-gradient-to-br from-gray-50 to-white rounded-xl shadow border"
+                  >
+                    <div className="text-2xl font-bold text-blue-900">
+                      {stat.number}
+                    </div>
+                    <div className="text-sm text-gray-600">
+                      {stat.label}
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <blockquote className="border-l-4 border-emerald-500 pl-6 py-4 italic text-gray-600 text-lg bg-gradient-to-r from-emerald-50 to-transparent rounded-r-2xl">
+                “Amruthdhan is not just about milk or investment it is about
+                creating a trusted ecosystem where purity, sustainability, and
+                financial growth move forward together.”
+              </blockquote>
+            </motion.div>
           </div>
 
-          {/* Impact Strip (UNCHANGED) */}
-          <div className="grid grid-cols-3 gap-4 text-center">
-            <div className="bg-blue-50 p-4 rounded-xl">
-              <p className="text-xl font-bold text-blue-900">100%</p>
-              <p className="text-sm text-gray-600">Pure Milk</p>
-            </div>
-            <div className="bg-emerald-50 p-4 rounded-xl">
-              <p className="text-xl font-bold text-emerald-700">Cruelty-Free</p>
-              <p className="text-sm text-gray-600">Animal Care</p>
-            </div>
-            <div className="bg-orange-50 p-4 rounded-xl">
-              <p className="text-xl font-bold text-orange-600">Sustainable</p>
-              <p className="text-sm text-gray-600">Farming</p>
-            </div>
-          </div>
 
-          {/* Gradient Highlight (UNCHANGED) */}
-          <div className="bg-gradient-to-r from-blue-600 to-emerald-600 p-6 rounded-2xl text-center text-white shadow-lg">
-            <p className="text-lg md:text-xl font-semibold leading-relaxed">
-              Pure milk. Ethical farming. Sustainable futures.  
-              Trust delivered from our farms to your home.
-            </p>
-          </div>
-        </motion.div>
 
-        {/* RIGHT IMAGE */}
-        <motion.div
-          initial={{ opacity: 0, x: 40 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-          className="flex justify-center"
-        >
-          <img
-            src="/images/founder.jpg"
-            alt="Founder"
-            className="w-[320px] md:w-[380px] rounded-3xl shadow-2xl object-cover"
-          />
-        </motion.div>
-
+        </div>
       </div>
     </section>
   );

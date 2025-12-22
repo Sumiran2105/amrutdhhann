@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { FaPhone, FaWhatsapp } from "react-icons/fa6";
 
 const Contact = () => {
   return (
@@ -22,15 +23,15 @@ const Contact = () => {
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:+919XXXXXXXXX"
-              className="bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-3 rounded-xl font-semibold"
+              className="bg-yellow-400 hover:bg-yellow-500 text-black  flex items-center gap-2 px-6 py-3 rounded-xl font-semibold"
             >
-              📞 Call Now
+              <FaPhone size={20}/> Call Now
             </a>
             <a
               href="https://wa.me/919XXXXXXXXX"
-              className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-xl font-semibold"
+              className="bg-green-500 hover:bg-green-600 text-white px-6 flex items-center gap-2 py-3 rounded-xl font-semibold"
             >
-              💬 WhatsApp
+              <FaWhatsapp size={25}/> WhatsApp
             </a>
           </div>
         </motion.div>
@@ -130,7 +131,7 @@ const Contact = () => {
       </section>
 
       {/* ================== MAP ================== */}
-      <section className="border-t">
+      <section className="border-t mb-3">
         <iframe
           title="Amrutdhhann Location"
           src="https://www.google.com/maps?q=Hyderabad&output=embed"
@@ -144,9 +145,9 @@ const Contact = () => {
         href="https://wa.me/919XXXXXXXXX"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-2xl text-3xl z-50"
+        className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl text-3xl z-50"
       >
-        💬
+        <FaWhatsapp/>
       </a>
     </>
   );

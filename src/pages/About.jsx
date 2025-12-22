@@ -7,6 +7,7 @@ import OurProducts from "../components/ aboutsections/OurProducts";
 import AnimalWelfare from "../components/ aboutsections/AnimalWelfare";
 import Investment from "../components/ aboutsections/Investment";
 import Closing from "../components/ aboutsections/Closing";
+import PurposeAndPromise from "../components/ aboutsections/Mission";
 
 
 const About = () => {
@@ -14,12 +15,12 @@ const About = () => {
     <>
       <Banner />
       <Vision />
-      <Mission />
+      <PurposeAndPromise />
       <Investment />
-      <AnimalWelfare />
-      <OurProducts />
-      <WhyAmrutdhhann />
-      <OurJourney />
+      {/* <AnimalWelfare /> */}
+      {/* <OurProducts /> */}
+      {/* <WhyAmrutdhhann /> */}
+      {/* <OurJourney /> */}
       <Closing />
     </>
   );

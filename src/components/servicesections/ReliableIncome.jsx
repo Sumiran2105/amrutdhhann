@@ -1,19 +1,20 @@
 import { MdCurrencyRupee } from "react-icons/md";
 import { FaShieldAlt, FaHandshake } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 
 export default function ReliableIncome() {
   return (
     <section className="bg-gradient-to-b from-blue-50 to-white">
-      <div className="max-w-7xl mx-auto px-6 py-24">
+      <div className="max-w-7xl mx-auto px-6 py-10">
 
         {/* SECTION HEADER */}
-        <div className="max-w-4xl mx-auto text-center mb-20">
+        <div className="max-w-4xl mx-auto text-center mb-6">
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900">
             Reliable Income
           </h2>
 
-          <p className="mt-6 text-gray-700 leading-relaxed">
+          <p className="mt-6 text-gray-700 md:text-base text-sm leading-relaxed">
             Along with dairy excellence, Amrutdhhann is designed to provide
             consistent and reliable income to those who invest with us.
             Investors and agents benefit from uninterrupted and stable earnings,
@@ -24,68 +25,120 @@ export default function ReliableIncome() {
         {/* CONTENT GRID */}
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
-       {/* LEFT: EXPLANATION */}
-<div className="relative space-y-10">
+          {/* LEFT: EXPLANATION */}
+          <div className="relative md:space-y-8  space-y-3">
 
-  {/* Vertical accent line */}
-  <div className="absolute left-6 top-0 bottom-0 w-px bg-gradient-to-b from-blue-200 via-green-200 to-indigo-200 hidden sm:block"></div>
+            {/* Vertical accent line */}
+            <div className="absolute left-6 top-0 bottom-0 w-px bg-gradient-to-b from-blue-200 via-green-200 to-indigo-200 hidden sm:block"></div>
+            {/* POINT 1 */}
+            <div className="relative flex items-center gap-6">
 
-  {/* POINT 1 */}
-  <div className="relative flex items-start gap-6">
-    <div className="w-12 h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center shadow-md flex-shrink-0 z-10">
-      <FaShieldAlt className="text-xl" />
-    </div>
+              {/* LEFT ICON — DESKTOP ONLY */}
+              <div className="hidden md:flex w-12 h-12 rounded-xl bg-blue-600 text-white items-center justify-center shadow-md flex-shrink-0 z-10">
+                <FaShieldAlt className="text-xl" />
+              </div>
 
-    <div className="bg-white rounded-xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition">
-      <h4 className="text-lg font-semibold text-gray-900 mb-2">
-        Asset-Backed Income Model
-      </h4>
-      <p className="text-gray-700 leading-relaxed text-sm">
-        Amrutdhhann’s income structure is supported by a real,
-        revenue-generating dairy ecosystem. This asset-backed foundation
-        ensures predictable monthly earnings and long-term financial
-        stability.
-      </p>
-    </div>
-  </div>
+              {/* CARD */}
+              <div className="bg-white w-full rounded-xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition">
 
-  {/* POINT 2 */}
-  <div className="relative flex items-start gap-6">
-    <div className="w-12 h-12 rounded-xl bg-green-600 text-white flex items-center justify-center shadow-md flex-shrink-0 z-10">
-      <MdCurrencyRupee className="text-xl" />
-    </div>
+                {/* MOBILE ICON — INSIDE CARD */}
+                <motion.div
+                  className="flex md:hidden mb-3"
+                  initial={{ opacity: 0, scale: 0.8, y: 8 }}
+                  animate={{ opacity: 1, scale: 1, y: 0 }}
+                  transition={{ duration: 0.5, ease: "easeOut" }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  <div className="w-10 h-10 rounded-lg bg-blue-600 text-white flex items-center justify-center shadow">
+                    <FaShieldAlt className="text-lg" />
+                  </div>
+                </motion.div>
 
-    <div className="bg-white rounded-xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition">
-      <h4 className="text-lg font-semibold text-gray-900 mb-2">
-        Consistent & Uninterrupted Earnings
-      </h4>
-      <p className="text-gray-700 leading-relaxed text-sm">
-        Investors and agents benefit from uninterrupted monthly income,
-        driven by continuous dairy operations designed for reliability,
-        transparency, and long-term confidence.
-      </p>
-    </div>
-  </div>
+                <h4 className="text-lg font-semibold text-gray-900 mb-2">
+                  Asset-Based Income Model
+                </h4>
 
-  {/* POINT 3 */}
-  <div className="relative flex items-start gap-6">
-    <div className="w-12 h-12 rounded-xl bg-indigo-600 text-white flex items-center justify-center shadow-md flex-shrink-0 z-10">
-      <FaHandshake className="text-xl" />
-    </div>
+                <p className="text-gray-700 text-sm leading-relaxed">
+                  Amrutdhhann’s income structure is supported by a real,
+                  revenue-generating dairy ecosystem. This asset-based foundation
+                  ensures predictable monthly earnings and long-term financial
+                  stability.
+                </p>
+              </div>
+            </div>
 
-    <div className="bg-white rounded-xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition">
-      <h4 className="text-lg font-semibold text-gray-900 mb-2">
-        Shared Growth for Investors & Agents
-      </h4>
-      <p className="text-gray-700 leading-relaxed text-sm">
-        The ecosystem rewards both investors and agents. Investors receive
-        stable monthly returns, while agents earn immediate income and
-        recurring commissions — creating shared, sustainable growth.
-      </p>
-    </div>
-  </div>
 
-</div>
+            {/* POINT 2 */}
+            <div className="relative flex items-center gap-6">
+
+              {/* DESKTOP ICON */}
+              <div className="hidden md:flex w-12 h-12 rounded-xl bg-green-600 text-white items-center justify-center shadow-md flex-shrink-0 z-10">
+                <MdCurrencyRupee className="text-xl" />
+              </div>
+
+              <div className="bg-white w-full rounded-xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition">
+
+                {/* MOBILE ICON */}
+                <motion.div
+                  className="flex md:hidden mb-3"
+                  initial={{ opacity: 0, scale: 0.8, y: 8 }}
+                  animate={{ opacity: 1, scale: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.1, ease: "easeOut" }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  <div className="w-10 h-10 rounded-lg bg-green-600 text-white flex items-center justify-center shadow">
+                    <MdCurrencyRupee className="text-lg" />
+                  </div>
+                </motion.div>
+
+
+                <h4 className="text-lg font-semibold text-gray-900 mb-2">
+                  Consistent & Uninterrupted Earnings
+                </h4>
+
+                <p className="text-gray-700 text-sm leading-relaxed">
+                  Investors and agents benefit from uninterrupted monthly income,
+                  driven by continuous dairy operations designed for reliability,
+                  transparency, and long-term confidence.
+                </p>
+              </div>
+            </div>
+            {/* POINT 3 */}
+            <div className="relative flex items-center gap-6">
+
+              {/* DESKTOP ICON */}
+              <div className="hidden md:flex w-12 h-12 rounded-xl bg-indigo-600 text-white items-center justify-center shadow-md flex-shrink-0 z-10">
+                <FaHandshake className="text-xl" />
+              </div>
+
+              <div className="bg-white w-full rounded-xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition">
+
+                <motion.div
+                  className="flex md:hidden mb-3"
+                  initial={{ opacity: 0, scale: 0.8, y: 8 }}
+                  animate={{ opacity: 1, scale: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  <div className="w-10 h-10 rounded-lg bg-indigo-600 text-white flex items-center justify-center shadow">
+                    <FaHandshake className="text-lg" />
+                  </div>
+                </motion.div>
+
+
+                <h4 className="text-lg font-semibold text-gray-900 mb-2">
+                  Shared Growth for Investors & Agents
+                </h4>
+
+                <p className="text-gray-700 text-sm leading-relaxed">
+                  The ecosystem rewards both investors and agents. Investors receive
+                  stable monthly returns, while agents earn immediate income and
+                  recurring commissions — creating shared, sustainable growth.
+                </p>
+              </div>
+            </div>
+
+          </div>
 
 
 
