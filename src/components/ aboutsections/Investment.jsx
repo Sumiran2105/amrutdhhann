@@ -21,7 +21,7 @@ const Investment = () => {
         <p className="text-gray-700 text-lg text-center max-w-3xl mx-auto mb-20 leading-relaxed">
           Amrutdhhann offers a transparent, asset-backed income model designed
           for investors seeking predictable monthly returns with complete
-          capital security — backed by a real, growing dairy ecosystem.
+          capital security backed by a real, growing dairy ecosystem.
         </p>
 
         {/* Investment Card */}
@@ -84,7 +84,7 @@ const Investment = () => {
           {/* Trust Note */}
           <p className="relative mt-6 text-center text-sm text-gray-600 max-w-3xl mx-auto">
             This income model is supported by real dairy assets, ethical operations,
-            and long-term production contracts — ensuring transparency,
+            and long-term production contracts ensuring transparency,
             predictability, and investor confidence.
           </p>
 
