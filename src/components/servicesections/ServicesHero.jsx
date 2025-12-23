@@ -1,7 +1,7 @@
 export default function ServicesHero() {
   return (
     <section className="bg-gradient-to-b from-blue-50 to-white overflow-x-hidden">
-      <div className="max-w-7xl mx-auto px-6 py-10 md:py-24">
+      <div className="max-w-7xl mx-auto px-6 py-10 md:py-20">
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
 
@@ -11,6 +11,18 @@ export default function ServicesHero() {
             <h1 className="text-4xl md:text-5xl font-bold text-blue-900">
               Our Services
             </h1>
+            {/* SUB-STATEMENT */}
+            <div className="mt-4 max-w-xl mx-auto lg:mx-0">
+              <p className="text-base md:text-lg text-blue-800 font-medium leading-relaxed">
+                Built on purity, sustainability, and trust, our services connect ethical
+                dairy production with long-term income opportunities—creating value for
+                consumers, investors, and agents alike.
+              </p>
+
+              {/* Accent Divider */}
+              <div className="mt-4 w-20 h-1 bg-gradient-to-r from-blue-600 to-emerald-500 rounded-full mx-auto lg:mx-0" />
+            </div>
+
 
             <p className="mt-6 text-base md:text-lg text-gray-700 leading-relaxed max-w-xl mx-auto lg:mx-0">
               Amrutdhhann offers a comprehensive range of services built around
