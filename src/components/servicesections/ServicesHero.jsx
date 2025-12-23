@@ -1,7 +1,7 @@
 export default function ServicesHero() {
   return (
     <section className="bg-gradient-to-b from-blue-50 to-white overflow-x-hidden">
-      <div className="max-w-7xl mx-auto px-6 py-10 md:py-20">
+      <div className="max-w-7xl mx-auto px-6 py-10 md:py-12">
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
 
