@@ -1,117 +1,117 @@
 import { motion } from "framer-motion";
-import { FaCalendarAlt,FaEnvelope} from "react-icons/fa";
+import { FaCalendarAlt, FaEnvelope } from "react-icons/fa";
 import { FaPhone, FaWhatsapp } from "react-icons/fa6";
 
 
 const Contact = () => {
-  
-const iconVariants = {
-  hidden: { scale: 0, rotate: -180 },
-  visible: {
-    scale: 1,
-    rotate: 0,
-    transition: {
-      type: "spring",
-      stiffness: 200,
-      damping: 15,
-      duration: 1
+
+  const iconVariants = {
+    hidden: { scale: 0, rotate: -180 },
+    visible: {
+      scale: 1,
+      rotate: 0,
+      transition: {
+        type: "spring",
+        stiffness: 200,
+        damping: 15,
+        duration: 1
+      }
     }
-  }
-};
+  };
   return (
     <div className="relative overflow-x-hidden">
       {/* ================== BANNER ================== */}
-  <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white py-16 lg:py-20 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white py-16 lg:py-20 overflow-hidden">
 
-  {/* Animated Background Elements */}
-  <div className="absolute inset-0 overflow-hidden">
-    <motion.div
-      className="absolute top-10 left-10 w-20 h-20 bg-blue-400 rounded-full opacity-20 blur-xl"
-      animate={{ x: [0, 100, 0], y: [0, -50, 0] }}
-      transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
-    />
-    <motion.div
-      className="absolute bottom-20 right-20 w-16 h-16 bg-purple-400 rounded-full opacity-30 blur-lg"
-      animate={{ x: [0, -80, 0], y: [0, 60, 0] }}
-      transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-    />
-    <motion.div
-      className="absolute top-1/2 left-1/3 w-12 h-12 bg-cyan-300 rounded-full opacity-25 blur-lg"
-      animate={{ x: [0, 60, 0], y: [0, 80, 0] }}
-      transition={{ duration: 7, repeat: Infinity, ease: "easeInOut", delay: 2 }}
-    />
-  </div>
-
-  {/* Content */}
-  <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
-
-    {/* Animated Icon */}
-    <motion.div
-      initial={{ opacity: 0, scale: 0.8 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 0.8 }}
-      className="relative inline-flex items-center justify-center mb-10"
-    >
-      <div className="relative">
-        <div className="absolute inset-0 bg-white/20 rounded-full blur-lg"></div>
-        <div className="relative bg-gradient-to-br from-white to-blue-100 p-6 lg:p-8 rounded-2xl shadow-2xl">
-          <FaCalendarAlt className="w-10 h-10 lg:w-12 lg:h-12 text-blue-900" />
+        {/* Animated Background Elements */}
+        <div className="absolute inset-0 overflow-hidden">
+          <motion.div
+            className="absolute top-10 left-10 w-20 h-20 bg-blue-400 rounded-full opacity-20 blur-xl"
+            animate={{ x: [0, 100, 0], y: [0, -50, 0] }}
+            transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
+          />
+          <motion.div
+            className="absolute bottom-20 right-20 w-16 h-16 bg-purple-400 rounded-full opacity-30 blur-lg"
+            animate={{ x: [0, -80, 0], y: [0, 60, 0] }}
+            transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+          />
+          <motion.div
+            className="absolute top-1/2 left-1/3 w-12 h-12 bg-cyan-300 rounded-full opacity-25 blur-lg"
+            animate={{ x: [0, 60, 0], y: [0, 80, 0] }}
+            transition={{ duration: 7, repeat: Infinity, ease: "easeInOut", delay: 2 }}
+          />
         </div>
-      </div>
 
-      {/* Floating Icons */}
-      <motion.div
-        className="absolute -top-2 -right-2 bg-yellow-400 text-blue-900 p-2 rounded-full shadow-lg"
-        animate={{ scale: [1, 1.2, 1], rotate: [0, 10, -10, 0] }}
-        transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-      >
-        <FaPhone className="w-4 h-4" />
-      </motion.div>
+        {/* Content */}
+        <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
 
-      <motion.div
-        className="absolute -bottom-2 -left-2 bg-green-400 text-blue-900 p-2 rounded-full shadow-lg"
-        animate={{ scale: [1, 1.1, 1], rotate: [0, -15, 15, 0] }}
-        transition={{ duration: 4, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-      >
-        <FaEnvelope className="w-4 h-4" />
-      </motion.div>
-    </motion.div>
+          {/* Animated Icon */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8 }}
+            className="relative inline-flex items-center justify-center mb-10"
+          >
+            <div className="relative">
+              <div className="absolute inset-0 bg-white/20 rounded-full blur-lg"></div>
+              <div className="relative bg-gradient-to-br from-white to-blue-100 p-6 lg:p-8 rounded-2xl shadow-2xl">
+                <FaCalendarAlt className="w-10 h-10 lg:w-12 lg:h-12 text-blue-900" />
+              </div>
+            </div>
 
-    {/* CTA Card */}
-    <motion.div
-      initial={{ opacity: 0, y: 30 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.8 }}
-      className="bg-white/10 backdrop-blur-md rounded-3xl p-10 shadow-xl"
-    >
-      <h1 className="text-3xl md:text-5xl font-extrabold mb-4">
-        Let’s <span className="text-yellow-400">Connect</span>
-      </h1>
+            {/* Floating Icons */}
+            <motion.div
+              className="absolute -top-2 -right-2 bg-yellow-400 text-blue-900 p-2 rounded-full shadow-lg"
+              animate={{ scale: [1, 1.2, 1], rotate: [0, 10, -10, 0] }}
+              transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+            >
+              <FaPhone className="w-4 h-4" />
+            </motion.div>
 
-      <p className="text-blue-100 md:text-lg text-sm mb-8">
-        Ready to connect with Amrutdhhann? Our team is here to guide you through
-        investments, partnerships, and dairy business opportunities.
-      </p>
+            <motion.div
+              className="absolute -bottom-2 -left-2 bg-green-400 text-blue-900 p-2 rounded-full shadow-lg"
+              animate={{ scale: [1, 1.1, 1], rotate: [0, -15, 15, 0] }}
+              transition={{ duration: 4, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+            >
+              <FaEnvelope className="w-4 h-4" />
+            </motion.div>
+          </motion.div>
 
-      <div className="flex flex-col sm:flex-row gap-4 justify-center">
-        <a
-          href="tel:+919XXXXXXXXX"
-          className="bg-yellow-400 hover:bg-yellow-500 text-black flex items-center gap-2 px-6 py-3 rounded-xl font-semibold"
-        >
-          <FaPhone size={20} /> Call Now
-        </a>
+          {/* CTA Card */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="bg-white/10 backdrop-blur-md rounded-3xl p-10 shadow-xl"
+          >
+            <h1 className="text-3xl md:text-5xl font-extrabold mb-4">
+              Let’s <span className="text-yellow-400">Connect</span>
+            </h1>
 
-        <a
-          href="https://wa.me/919XXXXXXXXX"
-          className="bg-green-500 hover:bg-green-600 text-white flex items-center gap-2 px-6 py-3 rounded-xl font-semibold"
-        >
-          <FaWhatsapp size={22} /> WhatsApp
-        </a>
-      </div>
-    </motion.div>
+            <p className="text-blue-100 md:text-lg text-sm mb-8">
+              Ready to connect with Amrutdhhann? Our team is here to guide you through
+              investments, partnerships, and dairy business opportunities.
+            </p>
 
-  </div>
-</section>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="tel:+919XXXXXXXXX"
+                className="bg-yellow-400 hover:bg-yellow-500 text-black flex items-center gap-2 px-6 py-3 rounded-xl font-semibold"
+              >
+                <FaPhone size={20} /> Call Now
+              </a>
+
+              <a
+                href="https://wa.me/919XXXXXXXXX"
+                className="bg-green-500 hover:bg-green-600 text-white flex items-center gap-2 px-6 py-3 rounded-xl font-semibold"
+              >
+                <FaWhatsapp size={22} /> WhatsApp
+              </a>
+            </div>
+          </motion.div>
+
+        </div>
+      </section>
 
 
       {/* ================== CONTACT SECTION ================== */}
@@ -224,7 +224,7 @@ const iconVariants = {
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl text-3xl z-50"
       >
-        <FaWhatsapp/>
+        <FaWhatsapp />
       </a>
     </div>
   );
