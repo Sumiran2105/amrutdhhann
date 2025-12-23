@@ -178,7 +178,7 @@ export default function Hero() {
 
   return (
    <section className="bg-gradient-to-b from-white to-blue-50 ">
-  <div className="max-w-7xl 2xl:max-w-screen-2xl mx-auto px-6 md:py-20 py-6 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+  <div className="max-w-7xl 2xl:max-w-screen-2xl mx-auto px-6 md:py-12 py-6 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
 
     {/* LEFT SIDE */}
     <div>
