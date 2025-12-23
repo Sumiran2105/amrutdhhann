@@ -177,77 +177,68 @@ export default function Hero() {
   }, [paused, slides.length]);
 
   return (
-    <section className="bg-gradient-to-b from-white to-blue-50">
-      <div className="max-w-7xl mx-auto px-6 md:py-20 py-6 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+   <section className="bg-gradient-to-b from-white to-blue-50 ">
+  <div className="max-w-7xl 2xl:max-w-screen-2xl mx-auto px-6 md:py-20 py-6 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
 
-        {/* LEFT SIDE */}
-        <div>
-          <h1 className="text-4xl md:text-5xl font-bold text-orange-500">
-            Amrutdhhann
-            <span className="block text-blue-700 mt-2">
-              Asia’s Largest Sustainable Dairy Ecosystem
-            </span>
-          </h1>
+    {/* LEFT SIDE */}
+    <div>
+      <h1 className="text-4xl md:text-5xl font-bold text-orange-500">
+        Amrutdhhann
+        <span className="block text-blue-700 mt-2">
+          Asia’s Largest Sustainable Dairy Ecosystem
+        </span>
+      </h1>
 
-          <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-5">
-            {[
-              { value: "100%", label: "Pure Milk" },
-              { value: "Global", label: "Global Exports" },
-              { value: "₹10K", label: "Monthly Income" },
-              { value: "Ethical", label: "Cruelty-Free" },
-            ].map(({ value, label }) => {
-
-              return (
-                <motion.div
-                  key={label}
-                  animate={{ scale:  1.05  }}
-                  className={`rounded-xl p-4 text-center 
-                       bg-blue-50 border border-blue-300
-                      
-                    }`}
-                >
-                  <p className="text-2xl font-bold text-blue-700">
-                    {value}
-                  </p>
-                  <p className="text-xs font-medium text-gray-600">
-                    {label}
-                  </p>
-                </motion.div>
-              );
-            })}
-          </div>
-        </div>
-
-        {/* RIGHT SLIDER */}
-        <div
-          onMouseEnter={() => setPaused(true)}
-          onMouseLeave={() => setPaused(false)}
-        >
-          <AnimatePresence mode="wait">
-            <motion.div
-              key={slides[activeSlide].id}
-              initial={{ opacity: 0, x: 40 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: -40 }}
-              transition={{ duration: 0.5 }}
-              className="bg-white border rounded-2xl shadow-xl md:p-8 p-6"
-            >
-              {slides[activeSlide].content}
-            </motion.div>
-          </AnimatePresence>
-
-          <div className="mt-4 flex justify-center gap-2">
-            {slides.map((_, i) => (
-              <button
-                key={i}
-                onClick={() => setActiveSlide(i)}
-                className={`w-2.5 h-2.5 rounded-full ${i === activeSlide ? "bg-blue-700" : "bg-gray-300"
-                  }`}
-              />
-            ))}
-          </div>
-        </div>
+      <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-5">
+        {[
+          { value: "100%", label: "Pure Milk" },
+          { value: "Global", label: "Global Exports" },
+          { value: "₹10K", label: "Monthly Income" },
+          { value: "Ethical", label: "Cruelty-Free" },
+        ].map(({ value, label }) => (
+          <motion.div
+            key={label}
+            whileHover={{ scale: 1.05 }}
+            transition={{ type: "spring", stiffness: 300 }}
+            className="rounded-xl p-4 text-center bg-blue-50 border border-blue-300"
+          >
+            <p className="text-2xl font-bold text-blue-700">{value}</p>
+            <p className="text-xs font-medium text-gray-600">{label}</p>
+          </motion.div>
+        ))}
       </div>
-    </section>
+    </div>
+
+    {/* RIGHT SLIDER */}
+    <div onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)}>
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={slides[activeSlide].id}
+          initial={{ opacity: 0, x: 40 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: -40 }}
+          transition={{ duration: 0.5 }}
+          className="bg-white border rounded-2xl shadow-xl md:p-8 p-6"
+        >
+          {slides[activeSlide].content}
+        </motion.div>
+      </AnimatePresence>
+
+      <div className="mt-4 flex justify-center gap-2">
+        {slides.map((_, i) => (
+          <button
+            key={i}
+            onClick={() => setActiveSlide(i)}
+            className={`w-2.5 h-2.5 rounded-full ${
+              i === activeSlide ? "bg-blue-700" : "bg-gray-300"
+            }`}
+          />
+        ))}
+      </div>
+    </div>
+
+  </div>
+</section>
+
   );
 }
