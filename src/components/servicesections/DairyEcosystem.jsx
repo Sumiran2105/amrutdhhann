@@ -3,15 +3,15 @@ import { FaLeaf, FaSolarPanel, FaGlobe, FaHeart } from "react-icons/fa";
 export default function DairyEcosystem() {
   return (
     <section className="bg-gradient-to-b from-white to-slate-50 overflow-x-hidden">
-      <div className="max-w-7xl mx-auto px-6 pb-6">
+      <div className="max-w-7xl mx-auto px-6 pb-10">
 
         {/* SECTION HEADER */}
         <div className="max-w-4xl mx-auto text-center mb-20">
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900">
-            Our Dairy Farms & Products
+            Our Dairy Products & Farms
           </h2>
 
-          <p className="mt-6 text-gray-700 leading-relaxed text-sm sm:text-base">
+          <p className="mt-6 text-gray-700 leading-relaxed text-sm sm:text-lg">
             Amrutdhhann is envisioned to become Asia’s largest integrated dairy
             enterprise, built with a long-term vision of quality, scale, and
             sustainability. We focus on producing organic and healthy milk and

@@ -14,7 +14,7 @@ export default function ReliableIncome() {
             Reliable Income
           </h2>
 
-          <p className="mt-6 text-gray-700 md:text-base text-sm leading-relaxed">
+          <p className="mt-6 text-gray-700 md:text-lg text-sm leading-relaxed">
             Along with dairy excellence, Amrutdhhann is designed to provide
             consistent and reliable income to those who invest with us.
             Investors and agents benefit from uninterrupted and stable earnings,

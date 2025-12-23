@@ -13,11 +13,11 @@ export default function CoreServices() {
       <div className="max-w-7xl mx-auto px-6 py-15">
 
         {/* SECTION HEADER */}
-        <div className="max-w-4xl mx-auto text-center mb-20">
+        <div className="max-w-4xl mx-auto text-center mb-14 ">
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900">
             Core Services
           </h2>
-         <p className="mt-6 text-gray-700 leading-relaxed">
+         <p className="mt-6 text-gray-700 leading-relaxed md:text-lg text-sm">
   Our services are thoughtfully designed to build a complete and
   future-ready dairy ecosystem — seamlessly integrating ethical dairy
   production, transparent operations, and dependable income

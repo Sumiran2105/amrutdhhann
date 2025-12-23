@@ -6,14 +6,14 @@ export default function WhoCanBenefit() {
       <div className="max-w-7xl mx-auto px-6 py-24">
 
         {/* SECTION HEADER */}
-        <div className="max-w-4xl mx-auto text-center mb-20">
+        <div className="max-w-4xl mx-auto text-center mb-14">
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900">
             Who Can Benefit
           </h2>
 
-          <p className="mt-6 text-gray-700 leading-relaxed">
+          <p className="mt-6 text-gray-700 md:text-lg text-sm leading-relaxed">
             Amrutdhhann’s ecosystem is designed to create value for everyone
-            involved — from those investing in growth, to partners expanding
+            involved from those investing in growth, to partners expanding
             the network, to families consuming pure and healthy dairy products.
           </p>
         </div>

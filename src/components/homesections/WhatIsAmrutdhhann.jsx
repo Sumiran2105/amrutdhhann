@@ -21,7 +21,7 @@ const fadeUp = {
 export default function WhatIsAmrutdhhann() {
   return (
     <section className="bg-white">
-      <div className="max-w-7xl mx-auto px-6 py-10">
+      <div className="max-w-7xl mx-auto px-6 py-12">
 
         {/* HEADER */}
         <motion.div

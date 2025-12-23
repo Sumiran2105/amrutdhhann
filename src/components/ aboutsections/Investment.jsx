@@ -8,6 +8,7 @@ import {
   FaUsers,
   FaChartLine,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Investment = () => {
   return (
@@ -28,13 +29,13 @@ const Investment = () => {
         </motion.h2>
 
         {/* Subheading */}
-        <p className="text-gray-700 text-lg text-center max-w-3xl mx-auto mb-20 leading-relaxed">
+        <p className="text-gray-700 text-lg text-center max-w-3xl mx-auto mb-10 leading-relaxed">
           Amrutdhhann offers a transparent, asset-based income model designed
           for investors seeking predictable monthly returns with complete
           capital security backed by a real, growing dairy ecosystem.
         </p>
 
-        {/* Investment Card (UNCHANGED) */}
+        {/* Investment Card  */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -89,9 +90,10 @@ const Investment = () => {
           </p>
 
           <div className="relative mt-10 flex justify-center">
+           <Link to="/contact " className="block">
             <button className="px-10 py-4 rounded-full bg-blue-700 text-white font-semibold text-lg hover:bg-blue-800 transition shadow-lg">
               Apply / Invest Now
-            </button>
+            </button></Link>
           </div>
         </motion.div>
 
@@ -157,22 +159,47 @@ const Investment = () => {
                 Build long-term income through a stable and transparent earning model.
               </p>
             </div>
+            
 
           </div>
+{/* SPECIAL AGENT INCENTIVE */}
+<div className="mt-10 p-8 rounded-2xl bg-gradient-to-br from-indigo-50 to-blue-50 border border-indigo-200 text-center shadow-sm">
+  <h4 className="text-xl font-bold text-indigo-900 mb-3">
+    Special Incentive for High-Performing Agents
+  </h4>
+
+  <p className="text-gray-700 text-sm md:text-base max-w-3xl mx-auto leading-relaxed">
+    Agents who successfully onboard <strong>20 active investors</strong> become
+    eligible for a <strong>₹10,000 monthly income</strong>, similar to an investor’s
+    monthly earnings  <strong>without making the ₹5 lakh investment</strong>.
+  </p>
+
+  <p className="mt-3 text-gray-600 text-sm md:text-base max-w-3xl mx-auto">
+    This incentive is designed to reward strong performance, long-term commitment,
+    and consistent contribution to the Amrutdhhann ecosystem.
+  </p>
+
+  <div className="mt-5 inline-block px-6 py-3 rounded-full bg-indigo-600 text-white font-semibold text-sm shadow">
+    Refer 20 Investors • Earn ₹10,000 Monthly • No Capital Investment Required
+  </div>
+</div>
 
           <div className="mt-14 bg-gradient-to-r from-emerald-600 to-blue-600 text-white text-center p-6 rounded-2xl font-semibold text-lg shadow-lg">
             Earn Immediately • Refer Investors • Build Long-Term Income with Amrutdhhann
           </div>
 
-          <p className="mt-6 text-center text-sm text-gray-600 max-w-3xl mx-auto">
+          <p className="mt-6 text-center text-sm md:text-base text-gray-600 max-w-3xl mx-auto">
             Agents benefit from a real, asset-based dairy business, ethical operations,
             and a growing investor ecosystem designed for stability and trust.
           </p>
 
           <div className="mt-10 flex justify-center">
+              <Link to="/contact " className="block">
             <button className="px-10 py-4 rounded-full bg-emerald-600 text-white font-semibold text-lg hover:bg-emerald-700 transition shadow-lg">
               Become an Agent
             </button>
+              </Link>
+              
           </div>
         </motion.div>
 

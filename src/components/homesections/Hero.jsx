@@ -188,6 +188,15 @@ export default function Hero() {
           Asia’s Largest Sustainable Dairy Ecosystem
         </span>
       </h1>
+      <p className="mt-6 max-w-2xl text-gray-700 text-base md:text-lg leading-relaxed">
+  Focused on purity, sustainability, and scale, Amrutdhhann is envisioned to
+  become Asia’s largest integrated dairy ecosystem. We produce organic,
+  healthy milk and milk by-products for India and global markets, while
+  creating a reliable, asset-based income platform for investors and agents
+  built on ethical farming, cruelty-free animal care, and environmentally
+  responsible operations.
+</p>
+
 
       <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-5">
         {[

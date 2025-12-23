@@ -11,7 +11,7 @@ export default function TransparencyTrust() {
             Transparency & Trust
           </h2>
 
-          <p className="mt-4 text-gray-700 leading-relaxed">
+          <p className="mt-4 text-gray-700 leading-relaxed md:text-lg text-sm">
             Amrutdhhann is built on transparency, ethical operations, and
             long-term responsibility. Every aspect of our dairy ecosystem
             and earning model is designed to be clear, accountable, and

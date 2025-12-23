@@ -58,7 +58,7 @@ export default function   PurposeAndPromise() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
-        className="grid lg:grid-cols-2 gap-16 items-center"
+        className="grid lg:grid-cols-2 gap-4 items-center"
       >
         <div>
           <h3 className="text-3xl md:text-4xl font-bold text-blue-900 mb-6">

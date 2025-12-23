@@ -11,7 +11,7 @@ export default function HowInvestmentWorks() {
             How the Investment Works
           </h2>
 
-          <p className="mt-6 text-sm md:text-base text-gray-700">
+          <p className="mt-6 text-sm md:text-lg text-sm text-gray-700">
             Amrutdhhann offers a structured and transparent earning model backed
             by a strong and growing dairy ecosystem. The process is designed to
             provide consistent income, long-term stability, and financial
