@@ -19,7 +19,7 @@ const iconVariants = {
   }
 };
   return (
-    <>
+    <div className="relative overflow-x-hidden">
       {/* ================== BANNER ================== */}
   <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white py-16 lg:py-20 overflow-hidden">
 
@@ -226,7 +226,7 @@ const iconVariants = {
       >
         <FaWhatsapp/>
       </a>
-    </>
+    </div>
   );
 };
 
