@@ -97,10 +97,10 @@ export default function   PurposeAndPromise() {
             Why Choose AmruthDhan?
           </h4>
 
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-700 leading-relaxed  text-sm md:text-md text-justify">
             We combine ethical dairy production with dependable earning
             opportunities. Our model is built on transparency, sustainability,
-            and long-term value — benefiting families, investors, and agents
+            and long-term value benefiting families, investors, and agents
             alike.
           </p>
         </div>
